@@ -1,15 +1,16 @@
 import React, { useState } from "react";
 import API from "../utils/API";
-import Jumbotron from "./components/Jumbotron";
-import SearchBox from "./components/SearchBox";
+import Jumbotron from "../components/Jumbotron";
+import SearchBox from "../components/SearchBox";
+import SearchResults from "../components/SearchResults";
 
 function Search() {
     const [book, setBook] = useState([]);
     const [searchTerm, setSearchTerm] = useState();
 
     function handleInputChange(event) {
-        const { formValue } = event.target;
-        setSearchTerm({ searchTerm, formValue });
+        const { value } = event.target;
+        setSearchTerm({ searchTerm, value });
     };
 
     function handleSearch(event) {
@@ -24,6 +25,7 @@ function Search() {
         <div>
             <Jumbotron />
             <SearchBox handleInputChange={ handleInputChange } handleSearch={ handleSearch }/>
+            <SearchResults book={ book }/>
         </div>
     )
 };
