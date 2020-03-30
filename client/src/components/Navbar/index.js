@@ -2,11 +2,17 @@ import React from "./node_modules/react";
 
 function Navbar() {
     return (
-        <div>
-            <h1>Google Books</h1>
-            <a href="/">Search</a>
-            <a href="/saved">Saved</a>
-        </div>
+        <nav className="navbar">
+            <a class="navbar-brand" href="/">Google Books</a>
+            <ul className="navbar-nav">
+                <li className="nav-item">
+                    <a class="nav-link" href="/">Search</a>
+                </li>
+                <li className="nav-item">
+                    <a class="nav-link" href="/">Saved</a>
+                </li>
+            </ul>
+        </nav>
     )
 };
 
