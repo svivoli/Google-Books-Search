@@ -13,6 +13,7 @@ function SearchResults(props) {
                     author={book.volumeInfo.authors}
                     description={book.volumeInfo.description}
                     link={book.volumeInfo.previewLink}
+                    handleSave={props.handleSave}
                     />
                 )
             })}
