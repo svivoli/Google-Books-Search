@@ -15,7 +15,7 @@ function ResultCard(props) {
                     <div class="row justify-content-end">
                         <div class="buttons col-md-3">
                             <button className="btn btn-secondary"><a className="preview" href={props.link} target="_blank">Preview</a></button>
-                            <button className="btn btn-warning">Save</button>
+                            <button className="btn btn-warning" onClick={(event) => {props.handleSave(event)}}>Save</button>
                         </div>
                     </div>
                     <p>{props.description}</p>
