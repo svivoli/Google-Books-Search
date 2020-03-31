@@ -23,12 +23,13 @@ function Search() {
 
     function handleSave(event) {
         event.preventDefault();
+        console.log(book);
         API.save({
             title: this.title,
-            author: this.author,
-            thumbnail: this.image,
-            synopsis: this.description,
-            preview: this.link
+            author: this.author[0],
+            description: this.description,
+            image: this.thumbnail,
+            link: this.link
         })
             .then(res => console.log('Book saved to collection'))
             .catch(err => console.log(err));
