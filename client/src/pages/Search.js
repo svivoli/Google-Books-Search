@@ -21,11 +21,24 @@ function Search() {
             })
     };
 
+    function handleSave(event) {
+        event.preventDefault();
+        API.save({
+            title: this.title,
+            author: this.author,
+            thumbnail: this.image,
+            synopsis: this.description,
+            preview: this.link
+        })
+            .then(res => console.log('Book saved to collection'))
+            .catch(err => console.log(err));
+    };
+
     return (
         <div>
             <Jumbotron />
             <SearchBox handleInputChange={ handleInputChange } handleSearch={ handleSearch }/>
-            <SearchResults book={ book }/>
+            <SearchResults book={ book } handleSave={ handleSave }/>
         </div>
     )
 };
