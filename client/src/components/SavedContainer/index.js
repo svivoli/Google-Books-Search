@@ -1,10 +1,10 @@
 import React from "react";
-import SavedCard from "../SavedCard";
+// import SavedCard from "../SavedCard";
 
 function SavedContainer(props) {
     return (
         <div>
-            {props.books.map(book => {
+            {/* {props.books.map(book => {
                 return (
                     <SavedCard 
                     key={book._id}
@@ -17,7 +17,7 @@ function SavedContainer(props) {
                     handleDelete={props.handleDelete}
                     />
                 )
-            })}
+            })} */}
         </div>
     )
 };

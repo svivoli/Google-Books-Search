@@ -1,0 +1,25 @@
+.card {
+    margin-bottom: 30px;
+}
+
+.left {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.preview {
+    color: black
+}
+
+.preview:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.buttons {
+    margin-bottom: 10px;
+}
+
+.btn-warning {
+    margin-left: 10px;
+}

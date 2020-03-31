@@ -8,7 +8,7 @@ function SearchResults(props) {
             {props.book.map(book => {
                 return (
                     <ResultCard
-                    thumbnail={book.volumeInfo.imageLinks ? book.volumeInfo.imageLinks.thumbnail : "https://picsum.photos/200"}
+                    image={book.volumeInfo.imageLinks ? book.volumeInfo.imageLinks.thumbnail : "https://picsum.photos/200"}
                     title={book.volumeInfo.title}
                     author={book.volumeInfo.authors}
                     description={book.volumeInfo.description}
