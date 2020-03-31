@@ -1,9 +1,10 @@
 import React from "react";
 import ResultCard from "../ResultCard";
+import "./style.css";
 
 function SearchResults(props) {
     return (
-        <div>
+        <div className="results-container">
             {props.book.map(book => {
                 return (
                     <ResultCard
