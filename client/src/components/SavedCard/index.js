@@ -6,7 +6,7 @@ function SavedCard(props) {
             <div className="row">
                 <div className="col-md-4 text-center">
                     <h3>{props.title}</h3>
-                    <img src={props.image} alt="Cover"></img>
+                    <img src={props.thumbnail} alt="Cover"></img>
                 </div>
                 <div className="col-md-8">
                     <div className="col-md-3 align-self-end">

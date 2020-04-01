@@ -8,7 +8,7 @@ function Saved() {
 
     useEffect(() => {
         returnBooks()
-    });
+    }, []);
 
     function returnBooks() {
         API.return().then(res => {

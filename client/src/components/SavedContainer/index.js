@@ -3,7 +3,7 @@ import SavedCard from "../SavedCard";
 
 function SavedContainer(props) {
     return (
-        <div>
+        <div className="container">
             {props.book.map(book => {
                 return (
                     <SavedCard 
@@ -11,7 +11,7 @@ function SavedContainer(props) {
                     id={book._id}
                     title={book.title}
                     author={book.author}
-                    image={book.thumbnail ? book.thumbnail : "https://picsum.photos/200"}
+                    thumbnail={book.thumbnail ? book.thumbnail : "https://picsum.photos/200"}
                     description={book.synopsis}
                     link={book.preview}
                     handleDelete={props.handleDelete}
