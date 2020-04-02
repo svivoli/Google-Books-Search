@@ -11,11 +11,11 @@ function ResultCard(props) {
                     <img src={props.thumbnail} alt="Cover"></img>
                     <br></br>
                 </div>
-                <div className="right col-md-8">
+                <div className="col-md-8">
                     <div className="row justify-content-end">
                         <div className="buttons col-md-3">
                             <button className="btn btn-secondary"><a className="preview" href={props.link} target="_blank">Preview</a></button>
-                            <button className="btn btn-warning" onClick={(event) => {props.handleSave(event)}}>Save</button>
+                            <button className="btn btn-warning" onClick={(event) => {props.handleSave(event)}}><i class="fas fa-bookmark"></i></button>
                         </div>
                     </div>
                     <p>{props.description}</p>

@@ -8,11 +8,11 @@
 }
 
 .preview {
-    color: black
+    color: white;
 }
 
 .preview:hover {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 

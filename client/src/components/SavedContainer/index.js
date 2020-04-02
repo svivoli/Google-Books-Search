@@ -11,9 +11,9 @@ function SavedContainer(props) {
                     id={book._id}
                     title={book.title}
                     author={book.author}
-                    thumbnail={book.thumbnail}
+                    thumbnail={book.thumbnail ? book.thumbnail : "https://i.imgur.com/QPjhZBF.jpg"}
                     description={book.description}
-                    link={book.preview}
+                    link={book.link}
                     handleDelete={props.handleDelete}
                     />
                 )
