@@ -8,7 +8,7 @@ function ResultCard(props) {
                 <div className="left col-md-4 text-center">
                     <h4>{props.title}</h4>
                     <h5>{props.author}</h5>
-                    <img src={props.thumbnail} alt="Cover"></img>
+                    <img className="thumbnail" src={props.thumbnail} alt="Cover"></img>
                     <br></br>
                 </div>
                 <div className="col-md-8">

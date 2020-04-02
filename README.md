@@ -1,69 +1,45 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Google Books Search
 
-## Available Scripts
+## Links to Project
 
-In the project directory, you can run:
+[Live Site](https://g00gleb00ks.herokuapp.com/)  
+[GitHub Repository](https://github.com/svivoli/Google-Books-Search)
 
-### `npm start`
+## Description
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+A React app that allows users to search, preview, and save books from Google. There are two pages, the home/search page where users search for books and view results and the saved page where the books they save are stored via MongoDB. Saved books can be deleted.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### Modules/Technologies
 
-### `npm test`
+1. React
+2. MongoDB
+3. JSX
+4. Node
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Website Components
 
-### `npm run build`
+1. Navbar - "Google Books", "Search", "Saved"
+2. Jumbotron with site description
+3. Home/Search page components:
+- Search bar
+- Result cards
+ - Title, author, thumbnail, description, linked preview button, save button
+4. Saved page components:
+- Saved cards
+ - Title, author, thumbnail, description, linked preview button, delete button
+5. Fontawesome icons
+6. Bootstrap
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## User experience
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+![Search](search.png)
+The home page displays related search results after the user searches for a book by keyword. The user can save a book by clicking the yellow save icon on the respective card of the book they wish to save to their collection.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Saved](saved.png)
+When the user navigates to the saved page, they will see the books they have saved displayed in cards, just as they are displayed on the search page. Saved books can be removed from their collection by clicking the red delete button on their respective cards.
 
-### `npm run eject`
+## Developer Experience
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+I rather enjoyed writing this app as it required a complex front-end and back-end structure. React is proving to be a useful tool in creating apps that are well structured and recyclable.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-# Google-Books-Search
+--Sarah Vivoli
