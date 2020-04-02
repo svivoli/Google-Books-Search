@@ -23,10 +23,10 @@ A React app that allows users to search, preview, and save books from Google. Th
 3. Home/Search page components:
 - Search bar
 - Result cards with:
-* Title, author, thumbnail, description, linked preview button, save button
+    Title, author, thumbnail, description, linked preview button, save button
 4. Saved page components:
 - Saved cards with:
-* Title, author, thumbnail, description, linked preview button, delete button
+    Title, author, thumbnail, description, linked preview button, delete button
 5. Fontawesome icons
 6. Bootstrap
 
