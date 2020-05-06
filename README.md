@@ -7,13 +7,13 @@
 
 ## Description
 
-A React app that allows users to search, preview, and save books from Google. There are two pages, the home/search page where users search for books and view results and the saved page where the books they save are stored via MongoDB. Saved books can be deleted.
+A MERN app that allows users to search, preview, and save books from Google. There are two pages, the home/search page where users search for books and view results and the saved page where the books they save are stored via MongoDB. Saved books can be deleted.
 
 ### Modules/Technologies
 
-1. React
-2. MongoDB
-3. JSX
+1. MongoDB
+2. Express
+3. React
 4. Node
 
 ### Website Components
