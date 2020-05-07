@@ -27,7 +27,7 @@ A MERN app that allows users to search, preview, and save books from Google. The
 4. Saved page components:
 - Saved cards with:  
     Title, author, thumbnail, description, linked preview button, delete button
-5. Fontawesome icons
+5. Flaticon icons
 6. Bootstrap
 
 ## User experience
@@ -43,3 +43,5 @@ When the user navigates to the saved page, they will see the books they have sav
 I rather enjoyed writing this app as it required a complex front-end and back-end structure. React is proving to be a useful tool in creating apps that are well structured and recyclable.
 
 --Sarah Vivoli
+
+Icons made by https://www.flaticon.com/
