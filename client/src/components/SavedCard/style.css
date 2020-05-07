@@ -6,7 +6,8 @@
     margin-left: 10px;
 }
 
-.fas {
+.delete-icon {
+    padding-bottom: 2px;
     color: white;
-    font-size: 16px;
+    height: 20px;
 }
