@@ -2,6 +2,7 @@ import React from "react";
 import SavedCard from "../SavedCard";
 
 function SavedContainer(props) {
+    console.log(props.book);
     return (
         <div className="container">
             {props.book.map(book => {
