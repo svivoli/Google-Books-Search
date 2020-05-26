@@ -7,7 +7,7 @@ function SearchBox(props) {
             <h5>Search for a book:</h5>
             <form
             onSubmit={(event) => { props.handleSearch(event) }}>
-                <div className="row">
+                <div className="row justify-content-md-center">
                     <div className="col-md-10">
                         <input type="text" 
                         className="form-control" 

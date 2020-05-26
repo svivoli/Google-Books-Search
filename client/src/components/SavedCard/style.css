@@ -1,5 +1,22 @@
+.container {
+    position: relative;
+    overflow: hidden;
+}
+
+.card-rows {
+    display: flex;
+}
+
 .thumbnail {
-    height: 200px;
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    width: 0;
+    object-fit: cover;
+}
+
+.right {
+    background-color: white;
 }
 
 .btn-danger {
