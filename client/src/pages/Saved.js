@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Jumbotron from "../components/Jumbotron";
+import SavedJumbotron from "../components/SavedJumbotron";
 import SavedContainer from "../components/SavedContainer";
 import API from "../utils/API";
 
@@ -27,7 +27,7 @@ function Saved() {
 
     return (
         <div>
-            <Jumbotron />
+            <SavedJumbotron />
             <SavedContainer book={ book } handleDelete={ handleDelete } />
         </div>
     )
