@@ -19,7 +19,7 @@ A MERN app that allows users to search, preview, and save books from Google. The
 ### Website Components
 
 1. Navbar - "Google Books", "Search", "Saved"
-2. Jumbotron with site description
+2. Jumbotron with site description and image
 3. Home/Search page components:
 - Search bar
 - Result cards with:  
@@ -32,11 +32,11 @@ A MERN app that allows users to search, preview, and save books from Google. The
 
 ## User experience
 
-![Search](search.png)
-The home page displays related search results after the user searches for a book by keyword. The user can save a book by clicking the yellow save icon on the respective card of the book they wish to save to their collection.
+![Home](home.png)
+The home page displays related search results after the user searches for a book by keyword. The user can save a book by clicking the save icon on the respective div of the book they wish to save to their collection. The preview button will take them to the Google Books site with the related book's search results.
 
-![Saved](saved.png)
-When the user navigates to the saved page, they will see the books they have saved displayed in cards, just as they are displayed on the search page. Saved books can be removed from their collection by clicking the red delete button on their respective cards.
+![Saved](collection.png)
+When the user navigates to the saved page, they will see the books they have saved displayed in separate divs, just as they are displayed on the search page. Saved books can be removed from their collection by clicking the trash can icon button on their respective cards. Users can preview books from this page as well.
 
 ## Developer Experience
 
